@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timezone Finder</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Timezone Finder</h1>
+
+    <div class="current-timezone">
+      <h2>Current Timezone:</h2>
+      <p id="current-timezone">Loading...</p>
+    </div>
+
+    <div class="address-timezone">
+      <h2>Find Timezone by Address:</h2>
+      <input type="text" id="address-input" placeholder="Enter an address">
+      <button onclick="getTimezone()">Find Timezone</button>
+
+      <h3>Timezone:</h3>
+      <p id="address-timezone"></p>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
